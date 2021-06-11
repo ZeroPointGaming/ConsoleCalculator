@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Redaj\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Redaj\\.nuget\\packages"
+    ]
+  }
+}

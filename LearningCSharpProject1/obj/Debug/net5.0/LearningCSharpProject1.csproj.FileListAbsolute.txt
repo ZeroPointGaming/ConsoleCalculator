@@ -1,0 +1,16 @@
+C:\Users\Redaj\Source\Repos\LearningCSharpProject1\LearningCSharpProject1\bin\Debug\net5.0\LearningCSharpProject1.exe
+C:\Users\Redaj\Source\Repos\LearningCSharpProject1\LearningCSharpProject1\bin\Debug\net5.0\LearningCSharpProject1.deps.json
+C:\Users\Redaj\Source\Repos\LearningCSharpProject1\LearningCSharpProject1\bin\Debug\net5.0\LearningCSharpProject1.runtimeconfig.json
+C:\Users\Redaj\Source\Repos\LearningCSharpProject1\LearningCSharpProject1\bin\Debug\net5.0\LearningCSharpProject1.runtimeconfig.dev.json
+C:\Users\Redaj\Source\Repos\LearningCSharpProject1\LearningCSharpProject1\bin\Debug\net5.0\LearningCSharpProject1.dll
+C:\Users\Redaj\Source\Repos\LearningCSharpProject1\LearningCSharpProject1\bin\Debug\net5.0\ref\LearningCSharpProject1.dll
+C:\Users\Redaj\Source\Repos\LearningCSharpProject1\LearningCSharpProject1\bin\Debug\net5.0\LearningCSharpProject1.pdb
+C:\Users\Redaj\Source\Repos\LearningCSharpProject1\LearningCSharpProject1\obj\Debug\net5.0\LearningCSharpProject1.csprojAssemblyReference.cache
+C:\Users\Redaj\Source\Repos\LearningCSharpProject1\LearningCSharpProject1\obj\Debug\net5.0\LearningCSharpProject1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Redaj\Source\Repos\LearningCSharpProject1\LearningCSharpProject1\obj\Debug\net5.0\LearningCSharpProject1.AssemblyInfoInputs.cache
+C:\Users\Redaj\Source\Repos\LearningCSharpProject1\LearningCSharpProject1\obj\Debug\net5.0\LearningCSharpProject1.AssemblyInfo.cs
+C:\Users\Redaj\Source\Repos\LearningCSharpProject1\LearningCSharpProject1\obj\Debug\net5.0\LearningCSharpProject1.csproj.CoreCompileInputs.cache
+C:\Users\Redaj\Source\Repos\LearningCSharpProject1\LearningCSharpProject1\obj\Debug\net5.0\LearningCSharpProject1.dll
+C:\Users\Redaj\Source\Repos\LearningCSharpProject1\LearningCSharpProject1\obj\Debug\net5.0\ref\LearningCSharpProject1.dll
+C:\Users\Redaj\Source\Repos\LearningCSharpProject1\LearningCSharpProject1\obj\Debug\net5.0\LearningCSharpProject1.pdb
+C:\Users\Redaj\Source\Repos\LearningCSharpProject1\LearningCSharpProject1\obj\Debug\net5.0\LearningCSharpProject1.genruntimeconfig.cache
