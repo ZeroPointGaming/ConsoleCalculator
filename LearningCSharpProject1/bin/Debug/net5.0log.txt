@@ -1,0 +1,1 @@
+Xvalue = 1 Yvalue = 3 Operation: + Result: 4
