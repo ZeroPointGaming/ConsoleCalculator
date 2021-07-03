@@ -8,9 +8,9 @@ namespace LearningCSharpProject1
         static void Main(string[] args)
         {
             //For first run check if log file exists
-            if (!File.Exists(Environment.CurrentDirectory + "/log.txt"))
+            if (!File.Exists($"{Environment.CurrentDirectory}/log.txt"))
             {
-                FileStream filechecker = File.Create(Environment.CurrentDirectory + "/log.txt");
+                FileStream filechecker = File.Create($"{Environment.CurrentDirectory}/log.txt");
                 filechecker.Close();
                 filechecker.Dispose();
             }
@@ -35,7 +35,7 @@ namespace LearningCSharpProject1
                         Console.WriteLine("Available Commands: Calculate, LoadLogs, DeleteLogs, Exit, Help, LocateLogs");
                         break;
                     case "LocateLogs":
-                        Console.WriteLine(Environment.CurrentDirectory + "/log.txt".ToString());
+                        Console.WriteLine($"{Environment.CurrentDirectory}/log.txt");
                         break;
                     default:
                         Console.WriteLine("Error, Command does not exist. Use Help for available commands.");
@@ -52,7 +52,7 @@ namespace LearningCSharpProject1
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error loading log file. Stack Trace: " + ex.ToString());
+                Console.WriteLine($"Error loading log file. Stack Trace: {ex}");
             }
         }
 
@@ -60,32 +60,32 @@ namespace LearningCSharpProject1
         {
             try
             {
-                File.AppendAllText(Environment.CurrentDirectory + "/log.txt", Environment.NewLine + "X = " + x.ToString() + " Y = " + y.ToString() + " Operation: " + op + " Result: " + result.ToString());
+                File.AppendAllText($"{Environment.CurrentDirectory}/log.txt{Environment.NewLine}X = {x} Y = {y} Operation: {op} Result: {result}");
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error writing result to log file. Stack Trace: " + ex.ToString());
+                Console.WriteLine($"Error writing result to log file. Stack Trace: {ex}");
             }
         }
 
         public static void DeleteLog()
         {
-            if (File.Exists(Environment.CurrentDirectory + "/log.txt"))
+            if (File.Exists($"{Environment.CurrentDirectory}/log.txt"))
             {
                 try
                 {
-                    File.Delete(Environment.CurrentDirectory + "/log.txt");
+                    File.Delete($"{Environment.CurrentDirectory}/log.txt");
 
-                    if (!File.Exists(Environment.CurrentDirectory + "/log.txt"))
+                    if (!File.Exists($"{Environment.CurrentDirectory}/log.txt"))
                     {
-                        FileStream filechecker = File.Create(Environment.CurrentDirectory + "/log.txt");
+                        FileStream filechecker = File.Create($"{Environment.CurrentDirectory}/log.txt");
                         filechecker.Close();
                         filechecker.Dispose();
                     }
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine("Error deleting log file. Stack Trace: " + ex.ToString());
+                    Console.WriteLine($"Error deleting log file. Stack Trace: {ex}");
                 }
             }
         }
@@ -107,7 +107,7 @@ namespace LearningCSharpProject1
                 yval = float.Parse(Console.ReadLine());
 
                 float result = DoMath(xval, yval, op);
-                Console.WriteLine("Result " + result.ToString());
+                Console.WriteLine($"Result {result}");
                 LogResult(result, xval, yval, op);
             }
             catch (Exception ex)
